@@ -100,12 +100,36 @@
         android:text="@string/send" />
 
     <Button
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_button"
+        android:layout_marginTop="25dp"
+        android:onClick="uploadPic"
+        android:text="@string/pic" />
+
+    <Button
         android:id="@+id/reset_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/send_button"
-        android:layout_toRightOf="@+id/txt_firstName"
+        android:layout_alignTop="@+id/pic"
+        android:layout_toRightOf="@+id/pic"
         android:onClick="clearData"
         android:text="@string/reset" />
+
+     <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="10dp" >
+
+         <ImageView
+             android:id="@+id/viewImage"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:contentDescription="@string/profilepic"
+             android:src="@drawable/ic_launcher" />
+ 
+  </LinearLayout>
 
 </RelativeLayout>

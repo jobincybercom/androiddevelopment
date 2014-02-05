@@ -12,5 +12,9 @@
     <string name="reset">Clear</string>
     <string name="title_activity_display_form_data">DisplayFormData</string>
     <string name="hello_world">Hello world!</string>
+    <string name="pic">capture photo</string>
+    <string name="capture">capture</string>
+    <string name="upload">upload</string>
+    <string name="profilepic">User Profile picture</string>
 
 </resources>

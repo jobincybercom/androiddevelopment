@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/capture"
+        android:title="@string/capture"/>
+
+    <item
+        android:id="@+id/upload"
+        android:title="@string/upload"/>
+
+
+</menu>
